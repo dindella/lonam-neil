@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>1 an de Lonam Neil 🎂 – 31 Mai 2026</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Nunito:wght@400;600;700;800&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Nunito',sans-serif;background:#eef6ff;color:#333;min-height:100vh}
+.top-banner{background:linear-gradient(135deg,#1a6fa8,#3a9fd8);color:white;text-align:center;padding:1.2rem 1rem 1rem;position:relative;overflow:hidden}
+.top-banner::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 80'%3E%3Ccircle cx='30' cy='20' r='12' fill='white' opacity='.08'/%3E%3Ccircle cx='370' cy='50' r='18' fill='white' opacity='.06'/%3E%3Ccircle cx='200' cy='10' r='8' fill='white' opacity='.1'/%3E%3C/svg%3E") repeat}
+.top-banner-name{font-family:'Dancing Script',cursive;font-size:clamp(1.8rem,5vw,2.8rem);position:relative}
+.top-banner-sub{font-size:0.88rem;opacity:.85;position:relative;margin-top:.2rem;letter-spacing:.04em}
+.balloons-row{display:flex;justify-content:center;gap:.8rem;margin:.8rem 0 0;position:relative;z-index:1}
+.b{width:28px;height:38px;border-radius:50% 50% 50% 50%/60% 60% 40% 40%;position:relative;animation:fl 3s ease-in-out infinite}
+.b::after{content:'';position:absolute;bottom:-10px;left:50%;transform:translateX(-50%);width:1px;height:10px;background:rgba(255,255,255,.4)}
+.b.bl{background:#a8d8f0;animation-delay:.2s}.b.wh{background:rgba(255,255,255,.7);animation-delay:.7s}.b.go{background:#f5c842;animation-delay:1.2s}
+@keyframes fl{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-8px) rotate(3deg)}}
+.countdown-bar{background:white;border-bottom:2px solid #d0e8f8;padding:.9rem 1rem;text-align:center}
+.countdown-label{font-size:.78rem;color:#888;text-transform:uppercase;letter-spacing:.06em;margin-bottom:.4rem}
+.countdown-units{display:flex;justify-content:center;gap:.5rem;flex-wrap:wrap}
+.cd-unit{background:#eef6ff;border:1.5px solid #c8e0f5;border-radius:10px;padding:.45rem .7rem;min-width:58px;text-align:center}
+.cd-num{font-size:1.5rem;font-weight:800;color:#1a6fa8;line-height:1}
+.cd-lbl{font-size:.68rem;color:#888;text-transform:uppercase;letter-spacing:.04em;margin-top:2px}
+.main{max-width:680px;margin:0 auto;padding:1.5rem 1rem 3rem}
+.form-card{background:white;border-radius:20px;box-shadow:0 4px 24px rgba(26,111,168,.12);border:1.5px solid #c8e0f5;padding:1.8rem 1.5rem;margin-bottom:1.5rem}
+.form-card-header{text-align:center;margin-bottom:1.2rem}
+.form-card-title{font-family:'Dancing Script',cursive;font-size:1.7rem;color:#1a6fa8}
+.form-card-desc{font-size:.88rem;color:#666;margin-top:.3rem;line-height:1.6}
+.deadline-pill{display:inline-block;background:#fff3cd;border:1.5px solid #f5c842;border-radius:20px;padding:.3rem .9rem;font-size:.82rem;font-weight:700;color:#7a5a00;margin-top:.5rem}
+.step{margin-bottom:1.4rem}
+.step-label{font-size:.82rem;font-weight:800;color:#1a6fa8;text-transform:uppercase;letter-spacing:.06em;display:flex;align-items:center;gap:.4rem;margin-bottom:.5rem}
+.step-num{width:22px;height:22px;border-radius:50%;background:#1a6fa8;color:white;font-size:.72rem;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.presence-btns{display:flex;gap:.7rem;flex-wrap:wrap}
+.pres-btn{flex:1;min-width:130px;border:2px solid #d0e8f8;border-radius:12px;padding:.75rem 1rem;cursor:pointer;background:#f8fbff;font-family:'Nunito',sans-serif;font-size:.95rem;font-weight:700;color:#555;transition:all .18s;text-align:center}
+.pres-btn:hover{border-color:#6bb8f0;background:#eef6ff}
+.pres-btn.yes-active{border-color:#1a6fa8;background:#e0f0ff;color:#1a6fa8}
+.pres-btn.no-active{border-color:#e24b4a;background:#fff0f0;color:#a32d2d}
+.nb-row{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap}
+.nb-btn{width:40px;height:40px;border-radius:50%;border:2px solid #d0e8f8;background:#f8fbff;font-size:1.1rem;font-weight:800;color:#1a6fa8;cursor:pointer;transition:all .15s;display:flex;align-items:center;justify-content:center;font-family:'Nunito',sans-serif}
+.nb-btn:hover{border-color:#1a6fa8;background:#eef6ff}
+.nb-btn.active{border-color:#1a6fa8;background:#1a6fa8;color:white}
+.guest-block{background:#f4f9ff;border:1.5px dashed #b8d8f0;border-radius:14px;padding:1rem 1.1rem;margin-bottom:.8rem}
+.guest-block-title{font-size:.82rem;font-weight:800;color:#1a6fa8;display:flex;align-items:center;gap:.3rem;margin-bottom:.8rem}
+.field-row{margin-bottom:.7rem}
+.field-row label{display:block;font-size:.82rem;font-weight:700;color:#666;margin-bottom:.3rem}
+.field-row input{width:100%;padding:.6rem .9rem;border:1.5px solid #d0e8f8;border-radius:9px;font-family:'Nunito',sans-serif;font-size:.93rem;background:white;color:#333;outline:none;transition:border-color .15s}
+.field-row input:focus{border-color:#6bb8f0}
+.type-row{display:flex;gap:.5rem;flex-wrap:wrap}
+.type-chip{padding:.35rem .85rem;border-radius:20px;border:1.5px solid #d0e8f8;background:white;font-family:'Nunito',sans-serif;font-size:.8rem;font-weight:700;color:#666;cursor:pointer;transition:all .15s}
+.type-chip:hover{border-color:#6bb8f0}
+.type-chip.ta{background:#1a6fa8;color:white;border-color:#1a6fa8}
+.type-chip.te{background:#f5c842;color:#5a3d00;border-color:#f5c842}
+.type-chip.tb{background:#ffb3c6;color:#6b0028;border-color:#ffb3c6}
+.note-tip{background:#fff9e0;border-left:3px solid #f5c842;border-radius:0 8px 8px 0;padding:.6rem .9rem;font-size:.82rem;color:#7a5a00;margin-bottom:1rem;line-height:1.5}
+.submit-btn{width:100%;padding:1rem;background:linear-gradient(135deg,#1a6fa8,#3a9fd8);color:white;border:none;border-radius:14px;font-family:'Dancing Script',cursive;font-size:1.5rem;cursor:pointer;transition:all .2s;box-shadow:0 4px 14px rgba(26,111,168,.25)}
+.submit-btn:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(26,111,168,.35)}
+.submit-btn:active{transform:scale(.98)}
+.absent-box{background:#fff5f5;border:1.5px solid #f5b8b8;border-radius:12px;padding:1.2rem;text-align:center;margin:1rem 0;display:none}
+.absent-box p{color:#a32d2d;font-size:.95rem;line-height:1.6}
+.success-box{display:none;text-align:center;padding:2rem 1rem}
+.success-box.show{display:block}
+.success-icon{font-size:3.5rem;animation:pop .5s ease;display:block;margin-bottom:.8rem}
+@keyframes pop{0%{transform:scale(.5)}70%{transform:scale(1.2)}100%{transform:scale(1)}}
+.success-title{font-family:'Dancing Script',cursive;font-size:2rem;color:#1a6fa8;margin-bottom:.5rem}
+.success-text{font-size:.92rem;color:#555;line-height:1.7}
+.section-title{font-family:'Dancing Script',cursive;font-size:1.5rem;color:#1a6fa8;margin-bottom:1rem;text-align:center}
+.info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.8rem;margin-bottom:1.2rem}
+.info-card{background:white;border-radius:14px;padding:1rem;text-align:center;border:1.5px solid #d0e8f8;box-shadow:0 2px 10px rgba(26,111,168,.07)}
+.info-card .ic{font-size:1.6rem;margin-bottom:.4rem}
+.info-card .il{font-size:.72rem;color:#aaa;text-transform:uppercase;letter-spacing:.06em;margin-bottom:.2rem}
+.info-card .iv{font-size:.9rem;font-weight:700;color:#1a6fa8}
+.alert-band{background:#fff9e0;border:1.5px solid #f5c842;border-radius:12px;padding:.9rem 1.2rem;text-align:center;font-size:.9rem;color:#7a5a00;font-weight:700;margin-bottom:1.2rem}
+.invite-card{background:white;border-radius:16px;padding:1.5rem;border:1.5px solid #d0e8f8;text-align:center;line-height:1.9;font-size:.93rem;color:#444;box-shadow:0 2px 10px rgba(26,111,168,.07);margin-bottom:1.2rem}
+.invite-card em{font-style:italic;color:#1a6fa8;font-weight:700}
+.invite-card strong{color:#c48a00;font-weight:700}
+.colors-row{display:flex;justify-content:center;align-items:center;gap:.5rem;margin-bottom:1.5rem}
+.cdot{width:20px;height:20px;border-radius:50%;border:2px solid rgba(0,0,0,.08)}
+.clabel{font-size:.78rem;color:#888}
+.footer{text-align:center;padding:2rem 1rem 1rem;color:#aaa;font-size:.78rem}
+@media(max-width:420px){.form-card{padding:1.3rem 1rem}.nb-btn{width:36px;height:36px;font-size:1rem}}
+</style>
+</head>
+<body>
+
+<div class="top-banner">
+  <div class="top-banner-name">🎂 1 an de Lonam Neil !</div>
+  <div class="top-banner-sub">Dimanche 31 Mai 2026 · Massy (91)</div>
+  <div class="balloons-row">
+    <div class="b bl"></div><div class="b wh"></div><div class="b go"></div>
+    <div class="b bl"></div><div class="b wh"></div>
+  </div>
+</div>
+
+<div class="countdown-bar">
+  <div class="countdown-label">⏳ Compte à rebours jusqu'à la fête</div>
+  <div class="countdown-units">
+    <div class="cd-unit"><div class="cd-num" id="cd-j">--</div><div class="cd-lbl">Jours</div></div>
+    <div class="cd-unit"><div class="cd-num" id="cd-h">--</div><div class="cd-lbl">Heures</div></div>
+    <div class="cd-unit"><div class="cd-num" id="cd-m">--</div><div class="cd-lbl">Minutes</div></div>
+    <div class="cd-unit"><div class="cd-num" id="cd-s">--</div><div class="cd-lbl">Secondes</div></div>
+  </div>
+</div>
+
+<div class="main">
+
+  <!-- FORM EN PREMIER -->
+  <div class="form-card">
+    <div id="form-content">
+      <div class="form-card-header">
+        <div class="form-card-title">📝 Confirme ta présence !</div>
+        <div class="form-card-desc">Pour bien organiser la fête, merci de remplir ce formulaire avant le :</div>
+        <div class="deadline-pill">📅 10 Mai 2026</div>
+      </div>
+
+      <div class="step">
+        <div class="step-label"><div class="step-num">1</div> Serez-vous présent ?</div>
+        <div class="presence-btns">
+          <button class="pres-btn" id="btn-yes" onclick="setPresence('yes')">🎉 Oui, je serai là !</button>
+          <button class="pres-btn" id="btn-no" onclick="setPresence('no')">😢 Je ne pourrai pas venir</button>
+        </div>
+      </div>
+
+      <div class="absent-box" id="absent-box">
+        <p>😢 Tu vas nous manquer !<br>Merci quand même de nous avoir répondu.</p>
+        <button class="submit-btn" style="margin-top:1rem;font-size:1.2rem" onclick="submitAbsent()">Envoyer ma réponse</button>
+      </div>
+
+      <div id="steps-presence" style="display:none">
+        <div class="step">
+          <div class="step-label"><div class="step-num">2</div> Combien serez-vous ?</div>
+          <div class="note-tip">💬 Pour tout accompagnant que les parents ne connaissent pas, merci de les contacter directement.</div>
+          <div class="nb-row">
+            <span style="font-size:.85rem;color:#888;margin-right:.2rem">Nombre de personnes :</span>
+            <button class="nb-btn" onclick="setNb(1)">1</button>
+            <button class="nb-btn" onclick="setNb(2)">2</button>
+            <button class="nb-btn" onclick="setNb(3)">3</button>
+            <button class="nb-btn" onclick="setNb(4)">4</button>
+          </div>
+        </div>
+
+        <div class="step" id="guests-step" style="display:none">
+          <div class="step-label"><div class="step-num">3</div> Informations sur chaque personne</div>
+          <div id="guests-list"></div>
+        </div>
+
+        <button class="submit-btn" onclick="submitForm()">Envoyer ma présence 🎈</button>
+      </div>
+    </div>
+
+    <div class="success-box" id="success-box">
+      <span class="success-icon" id="s-icon">🎉</span>
+      <div class="success-title" id="s-title">Merci !</div>
+      <p class="success-text" id="s-text"></p>
+    </div>
+  </div>
+
+  <!-- INFOS -->
+  <div class="section-title">Les infos pratiques 📍</div>
+  <div class="info-grid">
+    <div class="info-card"><div class="ic">📅</div><div class="il">Date</div><div class="iv">Dimanche 31 Mai 2026</div></div>
+    <div class="info-card"><div class="ic">⏰</div><div class="il">Horaires</div><div class="iv">15h00 – 20h30</div></div>
+    <div class="info-card"><div class="ic">📍</div><div class="il">Lieu</div><div class="iv">14 rue du Chemin des Femmes, 91300 Massy</div></div>
+  </div>
+  <div class="alert-band">⚠️ La salle sera libérée impérativement à <strong>22h00</strong> — merci d'être ponctuel(le) !</div>
+
+  <div class="section-title">Le mot de Lonam Neil 🐻</div>
+  <div class="invite-card">
+    <p>Coucou tout le monde !</p>
+    <p>C'est moi, <em>Lonam Neil !</em></p>
+    <p>Ceci n'est pas un Poisson d'Avril. 😄<br>
+    Moi non plus je n'arrive pas à croire que ça fera bientôt un an que je suis là !<br>
+    Le temps est passé <em>Vroum Vroum !</em><br>
+    J'ai beaucoup grandi, appris plein de choses (et fait quelques bêtises, <em>chuuut!</em>),<br>
+    Maintenant… <strong>Je vais avoir 1 an !</strong><br>
+    Je suis tellement content et j'ai hâte de fêter ça avec vous !</p>
+    <p style="margin-top:.8rem;font-family:'Dancing Script',cursive;font-size:1.3rem;color:#1a6fa8">Câlins à tous ! — Lonam Neil 💙</p>
+  </div>
+
+  <div class="colors-row">
+    <div class="cdot" style="background:#fff;border-color:#ccc"></div>
+    <div class="cdot" style="background:#6bb8f0"></div>
+    <div class="cdot" style="background:#f5c842"></div>
+    <span class="clabel">Couleurs du jour : Blanc · Bleu · Or</span>
+  </div>
+</div>
+
+<div class="footer">Fête d'anniversaire de Lonam Neil · 31 Mai 2026 · Massy (91)</div>
+
+<script>
+function updateCountdown(){
+  const target=new Date('2026-05-31T15:00:00');
+  const now=new Date();
+  const diff=target-now;
+  if(diff<=0){document.querySelector('.countdown-bar').innerHTML='<div style="font-size:1.1rem;font-weight:800;color:#1a6fa8;padding:.5rem">🎉 C\'est le grand jour !</div>';return;}
+  const d=Math.floor(diff/86400000);
+  const h=Math.floor((diff%86400000)/3600000);
+  const m=Math.floor((diff%3600000)/60000);
+  const s=Math.floor((diff%60000)/1000);
+  document.getElementById('cd-j').textContent=d;
+  document.getElementById('cd-h').textContent=String(h).padStart(2,'0');
+  document.getElementById('cd-m').textContent=String(m).padStart(2,'0');
+  document.getElementById('cd-s').textContent=String(s).padStart(2,'0');
+}
+updateCountdown();setInterval(updateCountdown,1000);
+
+let presence=null,nb=0;
+
+function setPresence(val){
+  presence=val;
+  document.getElementById('btn-yes').className='pres-btn'+(val==='yes'?' yes-active':'');
+  document.getElementById('btn-no').className='pres-btn'+(val==='no'?' no-active':'');
+  document.getElementById('absent-box').style.display=val==='no'?'block':'none';
+  document.getElementById('steps-presence').style.display=val==='yes'?'block':'none';
+}
+
+function setNb(n){
+  nb=n;
+  document.querySelectorAll('.nb-btn').forEach((b,i)=>{b.className='nb-btn'+(i+1===n?' active':'')});
+  document.getElementById('guests-step').style.display='block';
+  buildGuests(n);
+}
+
+function buildGuests(n){
+  const labels=['1er','2ème','3ème','4ème'];
+  const list=document.getElementById('guests-list');
+  list.innerHTML='';
+  for(let i=0;i<n;i++){
+    const div=document.createElement('div');
+    div.className='guest-block';
+    div.innerHTML=`<div class="guest-block-title">👤 ${labels[i]} invité</div>
+      <div class="field-row"><label>Nom et prénom</label><input type="text" id="gname-${i}" placeholder="ex : Marie Dupont"></div>
+      <div class="field-row"><label>Catégorie</label>
+        <div class="type-row">
+          <button type="button" class="type-chip" onclick="setType(${i},'adulte',this)">👨 Adulte</button>
+          <button type="button" class="type-chip" onclick="setType(${i},'enfant',this)">👦 Enfant</button>
+          <button type="button" class="type-chip" onclick="setType(${i},'bebe',this)">👶 Bébé (&lt;2 ans)</button>
+        </div>
+        <input type="hidden" id="gtype-${i}">
+      </div>`;
+    list.appendChild(div);
+  }
+}
+
+function setType(i,type,btn){
+  btn.closest('.type-row').querySelectorAll('.type-chip').forEach(b=>b.className='type-chip');
+  btn.classList.add(type==='adulte'?'ta':type==='enfant'?'te':'tb');
+  document.getElementById('gtype-'+i).value=type;
+}
+
+function submitAbsent(){showSuccess(false,[]);}
+
+function submitForm(){
+  if(!presence){alert('Veuillez indiquer votre présence.');return;}
+  if(presence==='no'){submitAbsent();return;}
+  if(!nb){alert('Veuillez indiquer combien de personnes vous serez.');return;}
+  const guests=[];
+  for(let i=0;i<nb;i++){
+    const name=(document.getElementById('gname-'+i)||{}).value?.trim();
+    const type=document.getElementById('gtype-'+i)?.value;
+    if(!name){alert(`Merci de renseigner le nom de la personne n°${i+1}.`);return;}
+    if(!type){alert(`Merci de choisir la catégorie de la personne n°${i+1}.`);return;}
+    guests.push({name,type});
+  }
+  window.open('https://docs.google.com/forms/d/e/1FAIpQLSe5q3aXLJbNVuKnMTK3ORrvW-FLIrobdy3ZLZw1zwE1glWnmw/viewform?usp=send_form','_blank');
+  showSuccess(true,guests);
+}
+
+function showSuccess(coming,guests){
+  document.getElementById('form-content').style.display='none';
+  const box=document.getElementById('success-box');
+  box.classList.add('show');
+  if(coming){
+    document.getElementById('s-icon').textContent='🎉';
+    document.getElementById('s-title').textContent='Super, à très bientôt !';
+    const names=guests.map(g=>`<strong>${g.name}</strong>`).join(', ');
+    document.getElementById('s-text').innerHTML=`${names} — on vous attend avec impatience le <strong>31 Mai 2026</strong> à Massy ! 🐻🎂<br><br><small style="color:#aaa">Un onglet s'est ouvert pour confirmer sur Google Forms.</small>`;
+  } else {
+    document.getElementById('s-icon').textContent='💙';
+    document.getElementById('s-title').textContent='Merci pour ta réponse !';
+    document.getElementById('s-text').textContent='Tu vas nous manquer ! À très bientôt pour un câlin de Lonam Neil 🐻';
+  }
+}
+</script>
+</body>
+</html>
